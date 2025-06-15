@@ -1,0 +1,77 @@
+{
+  "company-profile": {
+    "id": "company-profile",
+    "title": "Company Profile Website",
+    "image": "/website/company-profile.jpg",
+    "description": "Website company profile profesional dengan desain modern dan responsif. Kami telah membantu berbagai perusahaan dalam membangun identitas digital mereka.",
+    "rating": 5,
+    "duration": "7-14 hari",
+    "revision": "3x",
+    "techStack": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    "features": [
+      "Desain Modern & Responsif",
+      "SEO Friendly",
+      "CMS Integration",
+      "Contact Form",
+      "Google Maps Integration",
+      "Social Media Integration",
+      "Animasi Interaktif",
+      "Loading Optimized"
+    ],
+    "variants": [
+      {
+        "name": "Basic",
+        "price": "Rp 2.500.000",
+        "discount": "20% OFF"
+      },
+      {
+        "name": "Premium",
+        "price": "Rp 4.500.000"
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "PT Indopride Pride GTA 5 Roleplay",
+        "image": "/gambar/indopride.png",
+        "url": "https://indopride.id/",
+        "category": "Business"
+      },
+      {
+        "id": 2,
+        "title": "PT Italy Paradise GTA 5 Roleplay",
+        "image": "/gambar/francerp.png",
+        "url": "https://www.iprp.it/",
+        "category": "E-Commerce"
+      },
+      {
+        "id": 3,
+        "title": "PT DOPMINER Hosting",
+        "image": "/gambar/dopminer.png",
+        "url": "https://dopminer.com/",
+        "category": "Business"
+      },
+      {
+        "id": 4,
+        "title": "Samp Ryzen Hosting",
+        "image": "/gambar/sampryzen.png",
+        "url": "https://wedding-invitation.com",
+        "category": "Business"
+      },
+      {
+        "id": 5,
+        "title": "The Legend Roleplay",
+        "image": "/gambar/thelegend.png",
+        "url": "https://thelegendsroleplay.com/index.php",
+        "category": "Business"
+      },
+      {
+        "id": 6,
+        "title": "Six Nine Roleplay",
+        "image": "/gambar/69.png",
+        "url": "https://sixnineroleplay.com/",
+        "category": "E-Commerce"
+      }
+    ]
+  }
+}

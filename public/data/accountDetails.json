@@ -1,0 +1,257 @@
+{
+  "products": {
+    "editing": [
+      {
+        "id": "canva",
+        "title": "Canva Pro",
+        "image": "/assets/canva.jpg",
+        "bgImage": "/assets/canva-bg.jpg",
+        "description": "Akun Canva Pro dengan fitur premium untuk desain, cocok untuk konten kreator dan bisnis.",
+        "rating": 4.8,
+        "warranty": "30 hari",
+        "devices": "Multi Perangkat",
+        "features": [
+          "Akses Elemen Premium",
+          "Template Siap Pakai",
+          "Download Tanpa Watermark",
+          "Bisa Invite Tim",
+          "Brand Kit & Magic Resize"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 35.000"
+          },
+          {
+            "name": "3 Bulan",
+            "price": "Rp 90.000"
+          }
+        ]
+      },
+      {
+        "id": "capcut",
+        "title": "CapCut Pro",
+        "image": "/assets/capcut.png",
+        "bgImage": "/assets/capcut-bg.jpg",
+        "description": "CapCut Pro tanpa watermark dan fitur premium untuk editing video profesional langsung dari HP atau PC.",
+        "rating": 4.7,
+        "warranty": "30 hari",
+        "devices": "1 Akun",
+        "features": [
+          "Tanpa Watermark",
+          "Efek & Filter Premium",
+          "Akses Template Eksklusif",
+          "Export HD & 4K",
+          "Akses Musik Premium"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 30.000"
+          }
+        ]
+      }
+    ],
+    "cloud_tools": [
+      {
+        "id": "gdrive",
+        "title": "Google Drive Unlimited",
+        "image": "/assets/googledrive.png",
+        "bgImage": "/assets/gdrive-bg.jpg",
+        "description": "Penyimpanan cloud Google dengan kapasitas besar, cocok untuk backup data, file kerja, maupun tim kolaborasi.",
+        "rating": 4.7,
+        "warranty": "Lifetime",
+        "devices": "Multi Perangkat",
+        "features": [
+          "Unlimited Storage (Team Drive)",
+          "Aman & Terintegrasi Gmail",
+          "Sinkronisasi Multi Perangkat",
+          "Bisa Share Link ke Publik",
+          "Lifetime Akses (Team Drive)"
+        ],
+        "variants": [
+          {
+            "name": "Unlimited - Lifetime",
+            "price": "Rp 35.000"
+          },
+          {
+            "name": "Unlimited + Edu Mail",
+            "price": "Rp 50.000"
+          }
+        ]
+      },
+      {
+        "id": "getcontact",
+        "title": "GetContact Premium",
+        "image": "/assets/gtc1.png",
+        "bgImage": "/assets/getcontact-bg.jpg",
+        "description": "Lihat siapa yang menamai kontak Anda, blokir spam otomatis, dan akses fitur privasi lainnya dengan GetContact Premium.",
+        "rating": 4.5,
+        "warranty": "30 hari",
+        "devices": "1 Akun",
+        "features": [
+          "Lihat Tag Nama Anda di Kontak Orang",
+          "Spam Filter Otomatis",
+          "Tanpa Iklan",
+          "Privasi Terjaga",
+          "Akses Premium Tools"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 10.000"
+          },
+          {
+            "name": "3 Bulan",
+            "price": "Rp 25.000"
+          }
+        ]
+      },
+      {
+        "id": "vcc",
+        "title": "Virtual Credit Card (VCC)",
+        "image": "/assets/vcc.png",
+        "bgImage": "/assets/vcc-bg.jpg",
+        "description": "Kartu virtual internasional untuk verifikasi akun PayPal, transaksi digital, trial platform luar negeri, dan pembelian digital.",
+        "rating": 4.6,
+        "warranty": "Sekali Pakai / Bulanan",
+        "devices": "Digunakan via Email",
+        "features": [
+          "Kartu Visa / MasterCard Virtual",
+          "Cocok untuk PayPal, Netflix, dll",
+          "Limit Custom sesuai kebutuhan",
+          "Bisa Digunakan untuk Trial (ChatGPT, Canva, dll)",
+          "Proses Cepat & Aman"
+        ],
+        "variants": [
+          {
+            "name": "Limit $1 (Trial)",
+            "price": "Rp 15.000"
+          },
+          {
+            "name": "Limit $5",
+            "price": "Rp 45.000"
+          },
+          {
+            "name": "Limit $10",
+            "price": "Rp 80.000"
+          }
+        ]
+      }
+    ],
+    "social_meeting": [
+      {
+        "id": "spotify",
+        "title": "Spotify Premium",
+        "image": "/assets/spotify.png",
+        "bgImage": "/assets/spotify-bg.jpg",
+        "description": "Layanan streaming musik bebas iklan dengan kualitas suara tinggi dan akses playlist tanpa batas.",
+        "rating": 4.8,
+        "warranty": "30 hari",
+        "devices": "1 Akun (Personal / Family)",
+        "features": [
+          "Bebas Iklan",
+          "Download Lagu Offline",
+          "Kualitas Audio Lebih Tinggi",
+          "Tanpa Batas Skip Lagu",
+          "Bisa Join Family Plan"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan (Personal)",
+            "price": "Rp 12.000"
+          },
+          {
+            "name": "1 Bulan (Join Family)",
+            "price": "Rp 10.000"
+          },
+          {
+            "name": "3 Bulan (Personal)",
+            "price": "Rp 30.000"
+          }
+        ]
+      },
+      {
+        "id": "wattpad",
+        "title": "Wattpad Premium",
+        "image": "/assets/wattpad.png",
+        "bgImage": "/assets/wattpad-bg.jpg",
+        "description": "Nikmati cerita dan novel tanpa iklan, akses chapter eksklusif, dan baca offline dengan Wattpad Premium.",
+        "rating": 4.5,
+        "warranty": "30 hari",
+        "devices": "1 Akun",
+        "features": [
+          "Tanpa Iklan",
+          "Baca Offline",
+          "Akses Cerita Eksklusif Premium",
+          "Mode Gelap",
+          "Dukungan Penulis"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 15.000"
+          },
+          {
+            "name": "3 Bulan",
+            "price": "Rp 35.000"
+          }
+        ]
+      },
+      {
+        "id": "scribd",
+        "title": "Scribd Premium",
+        "image": "/assets/scribd.png",
+        "bgImage": "/assets/scribd-bg.jpg",
+        "description": "Baca dan unduh e-book, audiobook, jurnal, dan dokumen premium dari berbagai bidang pengetahuan.",
+        "rating": 4.7,
+        "warranty": "30 hari",
+        "devices": "Multi Perangkat",
+        "features": [
+          "Akses e-Book dan Audiobook Premium",
+          "Unduh File PDF / DOC",
+          "Tanpa Iklan",
+          "Akses Jurnal Internasional",
+          "Support PDF Unlock & Save"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 15.000"
+          },
+          {
+            "name": "3 Bulan",
+            "price": "Rp 35.000"
+          }
+        ]
+      },
+      {
+        "id": "zoom",
+        "title": "Zoom Pro Account",
+        "image": "/assets/zoom.png",
+        "bgImage": "/assets/zoom-bg.jpg",
+        "description": "Akun Zoom Pro dengan fitur meeting hingga 30 jam, cocok untuk bisnis, webinar, atau kelas online.",
+        "rating": 4.9,
+        "warranty": "30 hari",
+        "devices": "1 Akun",
+        "features": [
+          "Meeting Hingga 30 Jam",
+          "Rekam Otomatis (Cloud & Lokal)",
+          "Tanpa Batas Waktu Meeting",
+          "Akses Admin Dashboard",
+          "Bisa Join Webinar Premium"
+        ],
+        "variants": [
+          {
+            "name": "1 Bulan",
+            "price": "Rp 45.000"
+          },
+          {
+            "name": "3 Bulan",
+            "price": "Rp 120.000"
+          }
+        ]
+      }
+    ]
+  }
+}
