@@ -449,7 +449,7 @@ export default function FAQSection() {
             Masih ada pertanyaan? Jangan ragu untuk menghubungi kami!
           </p>
           <a
-            href="https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20ada%20pertanyaan%20tentang%20layanan%20JAWA%20Store"
+            href="https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20ada%20pertanyaan%20tentang%20layanan%20JAWA%20Store"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#D9A154] to-[#A8743D] text-[#1A1A1A] font-bold rounded-lg hover:shadow-lg hover:shadow-[#D9A154]/30 transition-all duration-300 group">

@@ -20,7 +20,13 @@ export const metadata: Metadata = {
   description:
     "JAWA Store menyediakan jasa pembuatan website modern dan layanan akun premium berkualitas dengan tema gaming GTA.",
   icons: {
-    icon: "/logo/logo.png", // Favicon/logo
+    icon: "/logo/logo.png",
+    shortcut: "/logo/logo.png",
+    apple: "/logo/logo.png",
+    other: {
+      rel: "apple-touch-icon-precomposed",
+      url: "/logo/logo.png",
+    },
   },
   openGraph: {
     title: "JAWA Store - Jasa Account Premium & Website Modern",
@@ -54,12 +60,32 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Force favicon refresh by adding timestamp
+  const timestamp = Date.now();
   return (
     <html lang="id">
       <head>
-        <link rel="icon" href="/logo/logo.png" />
+        <link
+          rel="icon"
+          type="image/png"
+          href={`/logo/logo.png?v=${timestamp}`}
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={`/logo/logo.png?v=${timestamp}`}
+        />
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          href={`/logo/logo.png?v=${timestamp}`}
+        />
         <meta name="theme-color" content="#000000" />
         <meta name="msapplication-TileColor" content="#000000" />
+        <meta
+          name="msapplication-TileImage"
+          content={`/logo/logo.png?v=${timestamp}`}
+        />
       </head>
       <body className={inter.className}>
         {/* <Navbar /> */}

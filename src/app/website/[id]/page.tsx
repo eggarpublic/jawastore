@@ -85,7 +85,7 @@ export default function WebsiteDetailPage({
   // Handle purchase click
   const handlePurchase = () => {
     window.open(
-      `https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20tertarik%20dengan%20${website.title}%20paket%20${currentVariant.name}%20(${currentVariant.price})`,
+      `https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20tertarik%20dengan%20${website.title}%20paket%20${currentVariant.name}%20(${currentVariant.price})`,
       "_blank"
     );
   };
@@ -145,15 +145,14 @@ export default function WebsiteDetailPage({
           {/* Left Column - Image and Info */}
           <div className="space-y-6">
             <div className="relative aspect-video bg-[#2A2A2A] rounded-lg overflow-hidden">
+              {" "}
               <Image
-                src={website.image || "/placeholder.svg"}
-                alt={website.title}
+                src={website?.image || "/placeholder.svg"}
+                alt={website?.title || "Website Preview"}
                 fill
                 className="object-cover"
                 priority
                 placeholder="blur"
-                width={800}
-                height={450}
                 blurDataURL="/placeholder.svg"
               />
             </div>
@@ -284,7 +283,7 @@ export default function WebsiteDetailPage({
               <ul className="space-y-3 text-sm text-white/80">
                 <li className="flex items-start gap-2">
                   <Globe className="w-4 h-4 text-[#D9A154] mt-0.5 flex-shrink-0" />
-                  <span>Domain dan hosting tidak termasuk dalam paket</span>
+                  <span>Website Terdaftar Resmi Di Google </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Code className="w-4 h-4 text-[#D9A154] mt-0.5 flex-shrink-0" />
@@ -298,7 +297,7 @@ export default function WebsiteDetailPage({
                 </li>
                 <li className="flex items-start gap-2">
                   <Server className="w-4 h-4 text-[#D9A154] mt-0.5 flex-shrink-0" />
-                  <span>Gratis maintenance selama 1 bulan</span>
+                  <span>Gratis Domain .ID .COM  .CO.ID dan Hosting 1 Tahun</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <MobileIcon className="w-4 h-4 text-[#D9A154] mt-0.5 flex-shrink-0" />
@@ -322,7 +321,7 @@ export default function WebsiteDetailPage({
               <button
                 onClick={() =>
                   window.open(
-                    `https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20mau%20tanya%20tentang%20${website.title}`,
+                    `https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20mau%20tanya%20tentang%20${website.title}`,
                     "_blank"
                   )
                 }
@@ -359,14 +358,13 @@ export default function WebsiteDetailPage({
                     whileHover={{ scale: 1.02 }}
                     className="group bg-[#2A2A2A] rounded-lg overflow-hidden border border-[#D9A154]/20 hover:border-[#D9A154]/50 transition-all duration-300">
                     <div className="relative aspect-video">
+                      {" "}
                       <Image
-                        src={ref.image}
-                        alt={ref.title}
+                        src={ref.image || "/placeholder.svg"}
+                        alt={ref.title || "Reference Website"}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                         placeholder="blur"
-                        width={400}
-                        height={225}
                         blurDataURL="/placeholder.svg"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">

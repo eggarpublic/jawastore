@@ -63,7 +63,7 @@ export default function AccountDetailPage({
   // Handle purchase click
   const handlePurchase = () => {
     window.open(
-      `https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20tertarik%20dengan%20${account.title}%20paket%20${currentVariant.name}%20(${currentVariant.price})`,
+      `https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20tertarik%20dengan%20${account.title}%20paket%20${currentVariant.name}%20(${currentVariant.price})`,
       "_blank"
     );
   };
@@ -284,7 +284,7 @@ export default function AccountDetailPage({
               <button
                 onClick={() =>
                   window.open(
-                    `https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20mau%20tanya%20tentang%20${account.title}`,
+                    `https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20mau%20tanya%20tentang%20${account.title}`,
                     "_blank"
                   )
                 }

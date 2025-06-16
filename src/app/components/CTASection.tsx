@@ -168,7 +168,7 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           {/* Primary CTA - WhatsApp */}
           <motion.a
-            href="https://wa.me/628XXXXXXX?text=Halo%20min%2C%20saya%20tertarik%20dengan%20JASA%20di%20JAWA%20Store"
+            href="https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb?text=Halo%20min%2C%20saya%20tertarik%20dengan%20JASA%20di%20JAWA%20Store"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{

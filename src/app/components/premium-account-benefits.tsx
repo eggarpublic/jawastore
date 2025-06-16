@@ -128,19 +128,19 @@ const accountShowcase = [
 const testimonials = [
   {
     name: "Andi",
-    photo: "/logo/nevata.png",
+    photo: "/logo/user.png",
     text: "Pakai Netflix Premium di sini lebih hemat & langsung aktif! Udah 6 bulan lancar jaya.",
     service: "Netflix Premium",
   },
   {
     name: "Dina",
-    photo: "/logo/konoha.png",
+    photo: "/logo/user.png",
     text: "Canva Pro-nya membantu banget buat bisnis online. Hemat 77% dari harga resmi!",
     service: "Canva Pro",
   },
   {
     name: "Budi",
-    photo: "/logo/indonesia.jpg",
+    photo: "/logo/user.png",
     text: "ChatGPT Plus bikin produktivitas naik. Harganya cuma setengah dari official!",
     service: "ChatGPT Plus",
   },
@@ -438,11 +438,15 @@ export default function PremiumAccountBenefits() {
             {/* Carousel controls */}
             <button
               onClick={prevShowcase}
+              title="Showcase sebelumnya"
+              aria-label="Showcase sebelumnya"
               className="absolute left-2 md:left-4 top-1/2 transform -translate-y-1/2 bg-[#1A1A1A]/80 hover:bg-[#D9A154] text-white p-1.5 md:p-2 rounded-full transition-colors">
               <ChevronLeft size={16} className="md:w-5 md:h-5" />
             </button>
             <button
               onClick={nextShowcase}
+              title="Showcase berikutnya"
+              aria-label="Showcase berikutnya"
               className="absolute right-2 md:right-4 top-1/2 transform -translate-y-1/2 bg-[#1A1A1A]/80 hover:bg-[#D9A154] text-white p-1.5 md:p-2 rounded-full transition-colors">
               <ChevronRight size={16} className="md:w-5 md:h-5" />
             </button>
@@ -453,6 +457,7 @@ export default function PremiumAccountBenefits() {
                 <button
                   key={index}
                   onClick={() => setCurrentShowcase(index)}
+                  title={`Pilih showcase ${accountShowcase[index].name}`}
                   className={cn(
                     "w-2 h-2 md:w-3 md:h-3 rounded-full transition-all",
                     currentShowcase === index
@@ -532,6 +537,7 @@ export default function PremiumAccountBenefits() {
                   <button
                     key={index}
                     onClick={() => setCurrentTestimonial(index)}
+                    title={`Pilih testimonial ${testimonials[index].name}`}
                     className={cn(
                       "w-1.5 h-1.5 md:w-2 md:h-2 rounded-full transition-all",
                       currentTestimonial === index

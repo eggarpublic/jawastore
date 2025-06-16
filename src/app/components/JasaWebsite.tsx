@@ -40,7 +40,7 @@ const categories = [
 
 // Add popularity and pricing data
 const websiteList = [
-  {
+{
     id: "landing-page",
     title: "Landing Page",
     image: "/gambar/fornitewebsite.gif",
@@ -50,10 +50,10 @@ const websiteList = [
     stock: "Tersedia",
   },
   {
-    id: "company-profile",
-    title: "Company Profile",
+    id: "aplikasi-web",
+    title: "Aplikasi Web",
     image: "/gambar/compenyprofil.gif",
-    category: "company",
+    category: "ecommerce",
     price: "Rp 2.500.000",
     popular: true,
     stock: "Tersedia",
@@ -72,16 +72,25 @@ const websiteList = [
     title: "Blog",
     image: "/gambar/undangan.jpg",
     category: "blog",
-    price: "Rp 1.000.000",
+    price: "Rp 999.000",
     popular: false,
     stock: "Tersedia",
   },
   {
-    id: "Website Server Gta",
+    id: "Custom",
     title: "Portfolio",
     image: "/gambar/webgta6.jpg",
     category: "portfolio",
-    price: "Rp 800.000",
+    price: "Rp 2.000.000",
+    popular: false,
+    stock: "Tersedia",
+  },
+  {
+    id: "RemakeDesain",
+    title: "Remake Desain Website",
+    image: "/gambar/webgta6.jpg",
+    category: "portfolio",
+    price: "Rp 999.000",
     popular: false,
     stock: "Tersedia",
   },

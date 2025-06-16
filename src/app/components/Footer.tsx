@@ -54,7 +54,7 @@ const footerData = {
   contact: {
     phone: "+62 812-XXXX-XXXX",
     email: "admin@jawastore.com",
-    whatsapp: "https://wa.me/628XXXXXXX",
+    whatsapp: "https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb",
     address: "Jakarta, Indonesia",
     hours: "24/7 Available",
     response: "< 5 menit",
@@ -63,7 +63,7 @@ const footerData = {
     {
       name: "Instagram",
       icon: <Instagram className="w-5 h-5" />,
-      url: "https://instagram.com/jawastore",
+      url: "https://www.instagram.com/jawastore.biz.id/",
       followers: "10K+",
       color: "hover:text-pink-400",
     },
@@ -84,7 +84,7 @@ const footerData = {
     {
       name: "WhatsApp",
       icon: <MessageCircle className="w-5 h-5" />,
-      url: "https://wa.me/628XXXXXXX",
+      url: "https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb",
       followers: "24/7",
       color: "hover:text-green-400",
     },

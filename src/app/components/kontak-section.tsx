@@ -18,7 +18,7 @@ const contactChannels = [
   {
     name: "WhatsApp",
     icon: <FaWhatsapp className="w-6 h-6" />,
-    url: "https://wa.me/628XXXXXXX",
+    url: "https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb",
     description: "Respon tercepat (1-30 menit)",
     color: "bg-green-600 hover:bg-green-700",
     badge: "Fast Response",
@@ -26,7 +26,7 @@ const contactChannels = [
   {
     name: "Instagram DM",
     icon: <FaInstagram className="w-6 h-6" />,
-    url: "https://instagram.com/jawastore",
+    url: "https://www.instagram.com/jawastore.biz.id/",
     description: "Respon dalam 1-3 jam",
     color:
       "bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700",
@@ -35,7 +35,7 @@ const contactChannels = [
   {
     name: "Discord",
     icon: <FaDiscord className="w-6 h-6" />,
-    url: "https://discord.gg/yourlink",
+    url: "https://discord.gg/X3Dxk82U",
     description: "Update & pengumuman proyek",
     color: "bg-indigo-600 hover:bg-indigo-700",
     badge: "Community",
@@ -225,7 +225,7 @@ export default function KontakSection() {
                   developer
                 </p>
                 <a
-                  href="https://discord.gg/yourlink"
+                  href="https://discord.gg/X3Dxk82U"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
