@@ -30,7 +30,7 @@ export default function Hero() {
   const heroData = {
     akun: {
       title: "PREMIUM ACCOUNTS",
-      desc: "Akun GTA V, MLBB, FF dan game lainnya. Terverifikasi dan siap pakai.",
+      desc: "Canva Pro, ChatGPT Plus, Netflix Premium, Spotify, dan Lainnya! Akun siap pakai dengan harga terjangkau.",
       image: "/background/2.webp",
       cta: "BROWSE ACCOUNTS",
       productImage: "/logo/logo.png",

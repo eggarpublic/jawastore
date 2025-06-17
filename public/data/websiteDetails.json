@@ -1,36 +1,39 @@
 {
-  "company-profile": {
-    "id": "company-profile",
-    "title": "Company Profile Website",
-    "image": "/website/company-profile.jpg",
-    "description": "Website company profile profesional dengan desain modern dan responsif. Kami telah membantu berbagai perusahaan dalam membangun identitas digital mereka.",
+  "landing-page": {
+    "id": "landing-page",
+    "title": "Landing Page Website Modern",
+    "image": "/website/landing-page.jpg",
+    "description": "Website landing page profesional dengan desain modern dan responsif. Kami telah membantu berbagai perusahaan dalam membangun identitas digital mereka.",
     "rating": 5,
-    "duration": "7-14 hari",
-    "revision": "3x",
-    "techStack": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    "duration": "5-10 hari",
+    "revision": "2x",
+    "techStack": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motions", "GSAP", "Swiper", "React Icons", "Aesternity UI", "Shadcn ui"],
     "features": [
       "Desain Modern & Responsif",
       "SEO Friendly",
-      "CMS Integration",
       "Contact Form",
       "Google Maps Integration",
       "Social Media Integration",
       "Animasi Interaktif",
-      "Loading Optimized"
+      "Loading Optimized",
+      "Copywriting ringan untuk brand awareness",
+      "Setup Google Search Console, Analytics, Tag Manager",
+      "Kami bangun website dari nol (bukan template)"
     ],
     "variants": [
       {
-        "name": "Basic",
+        "name": "Basic | 3 Section",
         "price": "Rp 2.500.000",
-        "discount": "20% OFF"
+        "discount": "konsultasikan/negosiasikan kebutuhan Anda"
       },
       {
-        "name": "Premium",
-        "price": "Rp 4.500.000"
+        "name": "Premium | 5-7 Section",
+        "price": "Rp 4.000.000",
+        "discount": "konsultasikan/negosiasikan kebutuhan Anda"
       }
     ],
     "references": [
-      {
+{
         "id": 1,
         "title": "PT Indopride Pride GTA 5 Roleplay",
         "image": "/gambar/indopride.png",
@@ -73,91 +76,29 @@
         "category": "E-Commerce"
       }
     ]
-    
   },
-  "landing-page": {
-    "id": "landing-page",
-    "title": "Landing Page Website",
-    "image": "/website/landing-page.jpg",
-    "description": "Website landing page profesional dengan desain modern dan responsif. Kami telah membantu berbagai perusahaan dalam membangun identitas digital mereka.",
-    "rating": 5,
-    "duration": "5-10 hari",
-    "revision": "2x",
-    "techStack": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motions", "GSAP", "Swiper","Supabase", "React Icons", "Mysql", "Aesternity UI", "Shadcn ui"],
-    "features": [
-      "Desain Modern & Responsif",
-      "SEO Friendly",
-      
-      "Contact Form",
-      "Google Maps Integration",
-      "Social Media Integration",
-      "Animasi Interaktif",
-      "Loading Optimized",
-      "Kami bangun website dari nol (bukan template)"
-    ],
-    "variants": [
-      {
-        "name": "Basic",
-        "price": "Rp 2.500.000",
-        "discount": "3 Section"
-      },
-      {
-        "name": "Premium",
-        "price": "Rp 4.000.000",
-        "discount": "25% OFF 5-7 Section"
-      }
-    ],
-    "references": [
-      {
-        "id": 1,
-        "title": "PT Indopride Pride GTA 5 Roleplay",
-        "image": "/gambar/indopride.png",
-        "url": "#",
-        "category": null
-      },
-      {
-        "id": 2,
-        "title": "PT Italy Paradise GTA 5 Roleplay",
-        "image": "/gambar/francerp.png",
-        "url": "#",
-        "category": null
-      },
-      {
-        "id": 3,
-        "title": null,
-        "image": null,
-        "url": null,
-        "category": null
-      }
-    ]
-  },
-   "aplikasi-web": {
-    "id": "aplikasi-web",
-    "title": "Aplikasi Web",
+   "custom": {
+    "id": "custom",
+    "title": "Custom Website",
     "image": "/gambar/compenyprofil.gif",
-    "description": "Aplikasi web profesional berbasis sistem informasi untuk bisnis, organisasi, dan proyek digital.",
+    "description": "Custom web profesional berbasis sistem informasi untuk bisnis, organisasi, dan proyek digital.",
     "rating": 5,
     "duration": "10-14 hari",
     "revision": "3x",
-    "techStack": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "techStack": ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB", "PostgreSQL","laravel", "MySQL" , "Flask"],
     "features": [
-      "Dashboard Admin",
+      "Request Fitur Khusus",
       "Multi User Role",
       "Form Validasi",
-      "SEO Friendly",
-      "Free Domain .com",
-      "Free Hosting 1 Tahun",
-      ""
+      "Dashboard Admin",
+      "Integrasi API",
+      "Konsultasikan / Negosiasikan kebutuhan Anda"
     ],
     "variants": [
       {
-        "name": "Basic",
-        "price": "Rp 2.500.000",
-        "discount": "20% OFF"
-      },
-      {
-        "name": "Premium",
-        "price": "Rp 4.000.000"
+        "name": "Kunsultasi dengan kami",
+        "price": "Rp -",
+        "discount": "Via WhatsApp or Discord"
       }
     ],
     "references": [
@@ -172,14 +113,16 @@
   },
   "ecommerce": {
     "id": "ecommerce",
-    "title": "Website E-Commerce",
+    "title": "Custom Website E-Commerce",
     "image": "/gambar/Ecommers.jpg",
     "description": "Toko online lengkap dan terintegrasi, mendukung katalog produk, keranjang, pembayaran dan pengiriman.",
     "rating": 5,
     "duration": "10-15 hari",
     "revision": "3x",
-    "techStack": ["Next.js", "Tailwind CSS", "Stripe API"],
+    "techStack": ["Next.js", "Tailwind CSS", "Stripe API", "Midtrans API", "Node.js", "Express", "MongoDB", "PostgreSQL" , "MySQL", "Laravel"],
     "features": [
+      "Desain Modern & Responsif",
+      "Katalog Produk",
       "Sistem Keranjang Belanja",
       "Opsi Pembayaran API / Manual",
       "Optimasi SEO",
@@ -190,12 +133,14 @@
     ],
     "variants": [
       {
-        "name": "Basic",
-        "price": "Rp 3.500.000"
+        "name": "Basic | API Media Sosical Payment",
+        "price": "Rp 4.500.000",
+        "discount": "konsultasikan/negosiasikan kebutuhan Anda"
       },
       {
-        "name": "Premium",
-        "price": "Rp 5.000.000"
+        "name": "Premium | API Payment Gateway",
+        "price": "Rp 7.000.000",
+        "discount": "konsultasikan/negosiasikan kebutuhan Anda"
       }
     ],
     "references": [
@@ -207,81 +152,5 @@
         "category": "E-Commerce"
       }
     ]
-  },
-  "blog": {
-    "id": "blog",
-    "title": "Website Blog / Undangan",
-    "image": "/gambar/undangan.jpg",
-    "description": "Website blog atau undangan digital dengan desain elegan dan fitur interaktif.",
-    "rating": 4,
-    "duration": "3-7 hari",
-    "revision": "2x",
-    "techStack": ["Next.js", "Tailwind CSS"],
-    "features": [
-      "Album Foto & Video",
-      "Google Maps Integration",
-      "Form RSVP / Komentar",
-      "Free Domain .id",
-      "Free Hosting 1 Tahun",
-      "Free Maintenance 1 Bulan"
-    ],
-    "variants": [
-      {
-        "name": "Standard",
-        "price": "Rp 999.000"
-      }
-    ],
-    "references": []
-  },
-  "portfolio": {
-    "id": "portfolio",
-    "title": "Website Portfolio",
-    "image": "/gambar/webgta6.jpg",
-    "description": "Website portfolio untuk personal branding, freelancer, atau agensi kreatif.",
-    "rating": 4.5,
-    "duration": "5-7 hari",
-    "revision": "2x",
-    "techStack": ["Next.js", "Tailwind CSS", "Framer Motion"],
-    "features": [
-      "Galeri Project",
-      "Form Kontak & Download CV",
-      "Animasi Halus",
-      "SEO Friendly",
-      "Free Domain .id / .com",
-      "Free Hosting 1 Tahun",
-      "Free Maintenance 1 Bulan"
-    ],
-    "variants": [
-      {
-        "name": "Basic",
-        "price": "Rp 2.000.000"
-      }
-    ],
-    "references": []
-  },
-  "remake-desain": {
-    "id": "remake-desain",
-    "title": "Remake Desain Website",
-    "image": "/gambar/webgta6.jpg",
-    "description": "Upgrade tampilan website lama menjadi lebih modern dan optimal tanpa mengubah sistem utama.",
-    "rating": 4.5,
-    "duration": "3-6 hari",
-    "revision": "2x",
-    "techStack": ["Next.js", "Tailwind CSS"],
-    "features": [
-      "Redesain UI/UX",
-      "Optimalisasi Kecepatan",
-      "SEO Friendly",
-      "Free Domain (jika belum ada)",
-      "Free Hosting 1 Tahun",
-      "Free Maintenance 1 Bulan"
-    ],
-    "variants": [
-      {
-        "name": "Standard",
-        "price": "Rp 999.000"
-      }
-    ],
-    "references": []
   }
 }

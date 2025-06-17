@@ -2,6 +2,7 @@ import type React from "react";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 // import LiveChatWidget from "./components/live-chat-widget";
 // import Navbar from "./components/Navbar";
 
@@ -90,6 +91,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <Navbar /> */}
         {children}
+        <Analytics />
         {/* <LiveChatWidget />
          */}
       </body>
