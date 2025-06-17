@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "JAWA Store menyediakan jasa pembuatan website modern dan layanan akun premium berkualitas dengan tema gaming GTA.",
   icons: {
-    icon: "/logo/logo.png",
+    icon: "/logo/logo.ico",
     shortcut: "/logo/logo.png",
     apple: "/logo/logo.png",
     other: {
