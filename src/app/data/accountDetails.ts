@@ -795,6 +795,27 @@ export const accountDetails = {
     { "name": "1 Bulan", "price": "Rp 15.000" },
     { "name": "3 Bulan", "price": "Rp 20.000" }
   ]
+},
+"loklok": {
+  "id": "loklok",
+  "title": "LOKLOK VIP",
+  "image": "/gambar/gambarleading.png",
+  "bgImage": "/gambar/gambarleading.png",
+  "description": "Aplikasi streaming populer dengan berbagai film dan serial Asia, termasuk drama Korea, Jepang, Tiongkok, dan anime, lengkap dengan subtitle.",
+  "rating": 4.9,
+  "warranty": "30 hari",
+  "devices": "1 Akun / 2 Device",
+  "features": [
+    "Drama & Film Asia Lengkap (Korea, Jepang, China)",
+    "Anime & Variety Show Terbaru",
+    "Subtitle Indonesia & Inggris",
+    "Kualitas Streaming hingga HD",
+    "Bebas Iklan & Update Cepat"
+  ],
+  "variants": [
+    { "name": "1 Bulan", "price": "Rp 10.000" },
+    { "name": "3 Bulan", "price": "Rp 20.000" }
+  ]
 }
 
 
