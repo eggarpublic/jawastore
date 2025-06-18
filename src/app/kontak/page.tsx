@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Kontak Kami - JAWA Store",
+  title: "#1 Jasa Account Premium Terpecaya & Pembuatan Website Modern GTA",
   description:
     "Hubungi tim JAWA Store untuk informasi lebih lanjut tentang layanan akun premium dan pembuatan website.",
   openGraph: {

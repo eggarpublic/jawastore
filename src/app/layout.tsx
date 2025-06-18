@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "JAWA Store - Jasa Account Premium & Pembuatan Website Modern GTA",
+    title: "#1 Jasa Account Premium Terpecaya & Pembuatan Website Modern GTA",
     description:
       "JAWA Store hadir untuk kebutuhan digital Anda: akun premium dan website modern dengan desain menarik dan responsif.",
     url: "https://jawastore.biz.id",
