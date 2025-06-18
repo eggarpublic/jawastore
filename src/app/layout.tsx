@@ -2,52 +2,50 @@ import type React from "react";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
+// import LiveChatWidget from "./components/live-chat-widget";
+// import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 5,
-  userScalable: true,
+  maximumScale: 1,
+  userScalable: false,
   themeColor: "#000000",
 };
 
 export const metadata: Metadata = {
-  title: "JAWA Store - Jasa Account Premium & Website Modern",
+  title: "JAWA Store - Jasa Account Premium & Website Modern Terbaik",
   description:
-    "JAWA Store menyediakan jasa pembuatan website modern dan layanan akun premium berkualitas dengan tema gaming GTA.",
+    "JAWA Store penyedia jasa pembuatan website modern & akun premium gaming (GTA, Spotify, Netflix) terpercaya. Desain responsif, harga terjangkau, pelayanan 24 jam.",
   keywords: [
-    "JAWA Store",
-    "jasa website GTA",
-    "akun premium GTA",
-    "jasa digital",
+    "jasa pembuatan website",
+    "jasa pembuatan website modern",
+    "jasa pembuatan website modern gta",
+    "akun premium murah",
+    "akun premium netflix",
+    "akun GTA premium",
     "website modern",
-    "layanan akun premium",
-    "web GTA",
-  ],
+    "jasa website profesional"
+  ].join(", "),
   icons: {
     icon: "/logo/logo.ico",
-    shortcut: "/logo/logo.ico",
-    apple: "/logo/logo.ico",
-    other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/logo/logo.ico",
-    },
+    shortcut: "/logo/logo.png",
+    apple: "/logo/logo.png",
   },
   openGraph: {
-    title: "#1 Jasa Account Premium Terpecaya & Pembuatan Website Modern GTA",
-    description:
-      "JAWA Store hadir untuk kebutuhan digital Anda: akun premium dan website modern dengan desain menarik dan responsif.",
+    title: "JAWA Store - Solusi Digital Premium Anda",
+    description: "Jasa buat Website modern Gta & akun premium gaming dengan garansi resmi.",
     url: "https://jawastore.biz.id",
     siteName: "JAWA Store",
     images: [
       {
-        url: "/logo/logo.ico",
-        width: 800,
-        height: 600,
-        alt: "JAWA Store Logo",
+        url: "https://jawastore.biz.id/gambar/gambarleading.png",
+        width: 1200,
+        height: 630,
+        alt: "JAWA Store - Layanan Digital Premium",
       },
     ],
     locale: "id_ID",
@@ -55,12 +53,28 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "JAWA Store - Jasa Digital Premium",
-    description: "Layanan akun premium dan website modern bertema GTA.",
-    images: ["/logo/logo.ico"],
+    title: "JAWA Store - Akun Premium & Jasa Website",
+    description: "Garansi resmi 100% untuk semua layanan digital kami.",
+    images: ["https://jawastore.biz.id/logo/twitter-banner.jpg"],
+    creator: "@jawastore_id",
   },
   metadataBase: new URL("https://jawastore.biz.id"),
-  robots: "index, follow",
+  alternates: {
+    canonical: "https://jawastore.biz.id",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -68,56 +82,39 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Force favicon refresh by adding timestamp
   const timestamp = Date.now();
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "JAWA Store",
-    url: "https://jawastore.biz.id",
-    logo: "https://jawastore.biz.id/logo/logo.ico",
-    description:
-      "JAWA Store menyediakan jasa pembuatan website modern dan akun premium dengan tema gaming GTA.",
-    sameAs: [
-      "https://instagram.com/jawastore.biz.id", // ganti dengan akun kamu
-      "https://chat.whatsapp.com/GxC5EAAZxqy5ynDYsIaPnb",         // ganti juga dengan nomor WA JAWA Store
-    ],
-  };
-
   return (
     <html lang="id">
       <head>
         <link
           rel="icon"
           type="image/png"
-          href={`/logo/logo.ico?v=${timestamp}`}
+          href={`/logo/logo.png?v=${timestamp}`}
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`/logo/logo.ico?v=${timestamp}`}
+          href={`/logo/logo.png?v=${timestamp}`}
         />
         <link
           rel="shortcut icon"
           type="image/png"
-          href={`/logo/logo.ico?v=${timestamp}`}
+          href={`/logo/logo.png?v=${timestamp}`}
         />
-        <link rel="canonical" href="https://jawastore.biz.id" />
         <meta name="theme-color" content="#000000" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-TileImage"
-          content={`/logo/logo.ico?v=${timestamp}`}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          content={`/logo/logo.png?v=${timestamp}`}
         />
       </head>
       <body className={inter.className}>
         {/* <Navbar /> */}
         {children}
         <Analytics />
-        {/* <LiveChatWidget /> */}
+        {/* <LiveChatWidget />
+         */}
       </body>
     </html>
   );

@@ -774,6 +774,27 @@ export const accountDetails = {
     { "name": "1 Bulan", "price": "Rp 15.000" },
     { "name": "6 Bulan", "price": "Rp 30.000" }
   ]
+},
+"youtube": {
+  "id": "youtube",
+  "title": "YouTube Premium",
+  "image": "/gambar/gambarleading.png",
+  "bgImage": "//gambar/gambarleading.png",
+  "description": "Layanan bebas iklan dari YouTube yang memberikan akses ke YouTube Music, pemutaran di latar belakang, dan download offline.",
+  "rating": 4.9,
+  "warranty": "Full Garansi",
+  "devices": "1 Akun / 1 Device",
+  "features": [
+    "Tanpa Iklan di Semua Video",
+    "YouTube Music Premium",
+    "Pemutaran di Background",
+    "Download Video untuk Offline",
+    "Support Android, iOS & PC"
+  ],
+  "variants": [
+    { "name": "1 Bulan", "price": "Rp 15.000" },
+    { "name": "3 Bulan", "price": "Rp 20.000" }
+  ]
 }
 
 
