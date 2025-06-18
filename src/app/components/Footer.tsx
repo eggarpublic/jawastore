@@ -154,7 +154,7 @@ export default function Footer() {
                 <div className="flex items-center gap-3 mb-6">
                   <div className="relative w-12 h-12 overflow-hidden rounded-lg bg-gradient-to-br from-[#D9A154] to-[#A8743D] p-2">
                     <Image
-                      src={footerData.brand.logo || "/logo/logo.png"}
+                      src={footerData.brand.logo || "/logo/logo.ico"}
                       alt="JAWA Store Logo"
                       width={32}
                       height={32}

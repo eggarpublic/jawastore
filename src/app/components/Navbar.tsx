@@ -89,7 +89,7 @@ export default function Navbar() {
               scrolled ? "w-8 h-8" : "w-10 h-10"
             )}>
             <Image
-              src="/logo/logo.png"
+              src="/logo/logo.ico"
               alt="JAWA Store"
               width={40}
               height={40}

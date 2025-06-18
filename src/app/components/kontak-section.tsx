@@ -70,7 +70,7 @@ export default function KontakSection() {
       <div className="absolute right-8 top-8 opacity-10">
         <div className="relative w-24 h-24">
           <Image
-            src="/logo/logo.png"
+            src="/logo/logo.ico"
             alt="JAWA Store Logo"
             fill
             className="object-contain"
@@ -88,7 +88,7 @@ export default function KontakSection() {
             className="flex justify-center mb-4">
             <div className="relative w-16 h-16">
               <Image
-                src="/logo/logo.png"
+                src="/logo/logo.ico"
                 alt="JAWA Store Logo"
                 fill
                 className="object-contain"
