@@ -325,16 +325,18 @@ export default function ItemGrow() {
                         </span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="text-xs bg-gray-700/60 text-white px-2 py-0.5 rounded font-semibold">
-                          Stock:{" "}
+                        <span className="text-lg md:text-xl bg-gray-800/80 text-white px-4 py-1 rounded-xl font-bold tracking-wide border-2 border-cyan-400 shadow-md">
+                          STOCK:
                           <span
                             className={
-                              item.stock === 0
+                              (item.stock === 0
                                 ? "text-red-400"
                                 : item.stock < 3
                                 ? "text-yellow-400"
-                                : "text-green-400"
-                            }>
+                                : "text-green-400") +
+                              " ml-2 text-2xl md:text-3xl font-extrabold drop-shadow"
+                            }
+                          >
                             {item.stock}
                           </span>
                         </span>
